@@ -1,0 +1,15 @@
+{}
+{"isActive": false}
+{"age": {"$gte": 30}}
+{"age": {"$lte": 20}}
+{"age": {"$gte": 20, "$lte": 30}}
+{"eyeColor": "green"}
+{"eyeColor": "blue", "age": {"$gte": 20, "$lte": 23}}
+{"tags": "sit", "friends.name": "Sondra Avila"}
+{"tags": "nisi", "eyeColor": {"$in": ["brown", "blue"]}}
+{"friends.name": "Duncan Day"}
+{"company": "ANIXANG", "gender": "male", "isActive":false}
+{"address": {"$regex": "Arizona"}}
+{"address": {"$regex": "Arizona"}, "isActive": true, "age": {"$lte": 25}, "favoriteFruit": "apple"}
+{"favoriteFruit": "strawberry",  "friends.name":{"$regex": "Arizona"}}
+{"address": {"$regex": "Arizona"}, "gender": "female", "tags": "dolor"}

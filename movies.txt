@@ -1,0 +1,15 @@
+{}
+{"year": {"$gt":  2010}}
+{"year": {"$gt":  2010}}
+{"$or": [{"year": {"$lt": 1920}},{"year": {"$gt": 2010}}] }
+{"genres": "Action"}
+{"title": {"$regex": "Dark"}}
+{"genres": {"$in": ["Action", "Comedy"]}}
+{"genres":["Action", "Comedy"]}
+{"$and": [{"year": {"$gte": 2010}} ,{"genres": "Comedy"} ]}
+{"cast": "Jenna Fischer"}
+{"$and": [{"year": {"$gte": 1990}}, {"year": {"$lte": 2010}}, {"cast": "Tom Hanks"}]}
+{"title": "Batman"}
+{"cast": [], "genres":[]}
+{"cast": "Al Pacino", "genres": "Comedy"}
+{"cast": {"$size": 10}}
