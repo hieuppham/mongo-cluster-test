@@ -1,12 +1,5 @@
 # MongoDB Cluster Performance Test
 
-Used modules
-|||
-|:---:|:---:|
-|mongoose| [![mongoose](https://badge.fury.io/js/mongoose.svg)](https://www.npmjs.com/package/mongoose)|
-|xlsx| [![xlsx](https://badge.fury.io/js/xlsx.svg)](https://www.npmjs.com/package/xlsx)|
-|nodemon|[![npm version](https://badge.fury.io/js/nodemon.svg)](https://www.npmjs.com/package/nodemon)|
-
 Install dependencies
 ```
 npm install
